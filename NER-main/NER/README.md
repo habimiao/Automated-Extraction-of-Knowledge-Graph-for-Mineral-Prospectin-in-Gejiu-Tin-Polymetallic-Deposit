@@ -53,4 +53,4 @@
 
 数据详细效果测评，见 https://wandb.ai/minaral/your_project_name/reports/robert-lstm-crf---Vmlldzo4MjIzNzM3?accessToken=9r9vzsn3zrgcx12na6hiixhaoft9d4ekic6olcyanh7t842f0i5gv1qw5k7i9min
 
-技术讨论或问题，请项目中提issue或PR，或发送电子邮件到 
+技术讨论或问题，请项目中提issue或PR，或发送电子邮件到 lixiuchen@stu.ynu.edu.com

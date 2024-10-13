@@ -1,11 +1,12 @@
 # pytorch-NER
-RoBERTa + BiLSTM + CRF for Chinese NER Task
+RoBERTa + BiLSTM + CRF for Gejiu mineral NER Task
 
 ## Requirement
 - python 3.8
 - pytorch 1.8.1
 - transformers 4.11
 - tqdm
+- wandb
 
 ## CLUENER
 fine-grained named entity recognition dataset and benchmark for chinese [[see also]](NER/README.md)
@@ -13,7 +14,7 @@ fine-grained named entity recognition dataset and benchmark for chinese [[see al
 ## zh-RoBERTa
 use the pretrained RoBERTa weight for chinese from @brightmart and @ymcui [[see also]](resource/README.md)
 
-## Run
+## NER Run
 
 ```shell
 python main.py
@@ -33,22 +34,12 @@ lstm_dropout_rate = 0.2  # dropout rate for BiLSTM
 ```
 
 
-## Result
+## Predict run
+```shell
+python predict.py
+python predict_one_sentence.py
+```
 
-|Entity|Precision|Recall|F1|
-|---|---|---|---|
-|address|0.6171|0.6005|0.6087|
-|book|0.8322|0.7727|0.8013|
-|company|0.8306|0.8042|0.8172|
-|game|0.7578|0.9017|0.8235|
-|government|0.8154|0.8583|0.8363|
-|movie|0.8862|0.7219|0.7956|
-|name|0.8750|0.8882|0.8815|
-|organization|0.7506|0.8104|0.7794|
-|position|0.7924|0.7667|0.7793|
-|scene|0.7129|0.7129|0.7129|
-|**macro**|0.7819|0.7895|0.7857|
-|**micro**|0.7870|0.7838|0.7836|
 
 
 

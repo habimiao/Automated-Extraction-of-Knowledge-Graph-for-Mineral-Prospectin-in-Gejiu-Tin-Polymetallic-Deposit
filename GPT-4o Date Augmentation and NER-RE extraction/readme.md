@@ -10,4 +10,4 @@ This part mainly is about request form GPT-4o for DATA Augmentation and NER-RE E
 - requests 2.32.2
 - openai 1.33.0
 - openssl 3.0.13
-- your openan API key
+- your openai API key

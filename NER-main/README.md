@@ -8,8 +8,6 @@ RoBERTa + BiLSTM + CRF for Gejiu mineral NER Task
 - tqdm
 - wandb
 
-## CLUENER
-fine-grained named entity recognition dataset and benchmark for chinese [[see also]](NER/README.md)
 
 ## zh-RoBERTa
 use the pretrained RoBERTa weight for chinese from @brightmart and @ymcui [[see also]](resource/README.md)
